@@ -1,3 +1,27 @@
+/* Telefonlar (eng kichik ekranlar) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .header__wrapper {
+    flex-direction: column;
+  }
+}
+
+/* Planshetlar */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Kompyuterlar */
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+}
+
 .container {
     margin: 0 auto;
     padding: 0 auto;
@@ -26,10 +50,7 @@ html {
     display: flex;
     gap: 24px;
 }
-.header__link:hover {
-    text-decoration: underline;
-    text-decoration-color: #4b4e96;
-}
+
 .header__link {
     color: #4b4e86;
     font-size: 18px;
