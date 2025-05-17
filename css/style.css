@@ -21,7 +21,9 @@
     font-size: 18px;
   }
 }
-
+.favicon__c {
+    border-radius: 50px;
+}
 .container {
     margin: 0 auto;
     padding: 0 auto;
